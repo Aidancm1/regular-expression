@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Title Regular Expressions
 
-Introductory paragraph (replace this with your text)
+This guide will introduce and explain a specific regular expression(regex), it will provide a basic understanding on how a regex can help search patterns.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+A regular expression(regex) is must start with the `/` character. In this example I will use the regex `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` to compare and match email addresses.
 
 ## Table of Contents
 
@@ -20,7 +20,9 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
-
+The characters `^` and `$` are known to be anchors in regular expressions. They behave as the start and end.
+- `^` Character acts as the start of a regular expression.
+- -`$` Character acts as the end of a regular expression.
 ### Quantifiers
 
 ### Grouping Constructs
