@@ -24,7 +24,7 @@ The characters `^` and `$` are known to be anchors in regular expressions. They 
 - `^` Character acts as the start of a regular expression.
 - -`$` Character acts as the end of a regular expression.
 ### Quantifiers
-
+Quantifiers specify how many times a character must be present in the input for a match to be found. The quantifier can be identified in the example regex towards the end. `([a-z\.]{2,6})$\`. The `anchor` `$` can be seen towards the end. However, the a-z will only be searched in lengths of 2 to 6 characters long.
 ### Grouping Constructs
 
 ### Bracket Expressions
