@@ -61,4 +61,8 @@ Regular expressions can include flags that will affect the search. There are 6 f
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+If you would like to contribute or have any questions, please feel free to reach out.
+
+`GitHub` Aidancm1
+
+`Email` Aidancmorrow1@gmail.com
