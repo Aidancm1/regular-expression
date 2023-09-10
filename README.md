@@ -15,7 +15,6 @@ A regular expression(regex) is must start with the `/` character. In this exampl
 - [Character Classes](#character-classes)
 - [The OR Operator](#the-or-operator)
 - [Flags](#flags)
-- [Character Escapes](#character-escapes)
 
 ## Regex Components
 
@@ -41,10 +40,24 @@ Here is documentation to read further into `Character Classes`
 
 `https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Character_classes`.
 ### The OR Operator
+The `|` character symbolizes an `OR` character. This allows you to find certain sequences of characters. 
 
+For example: `abc|xyz` would search for abc or xyz respectively.
 ### Flags
+Regular expressions can include flags that will affect the search. There are 6 flags in JavaScript.
 
-### Character Escapes
+`i` This flag indicates that the search will be case-insensitive.
+
+`g`  This flag will search for all matches included.
+
+`m` This flag will search multiple lines
+
+`s` This flag will allow a `.` to match a newline.
+
+`u` This flag will enable full Unicode support.
+
+`y` This flag will search at an exact position.
+
 
 ## Author
 
