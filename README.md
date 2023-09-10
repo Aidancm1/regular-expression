@@ -28,9 +28,18 @@ Quantifiers specify how many times a character must be present in the input for 
 ### Grouping Constructs
 Grouping captures patterns within the larger group, this can be referred to as a subpattern. Using `()` will indicate a grouping. Look back at the example regex and see if you can spot a grouping construct.
 ### Bracket Expressions
-
+Looking for `[]` in the example regex will identify a bracket expression. In the example regex `[a-z0-9_/.-]` is a bracket expression would capture A-Z in lowercase only`a-z`, every number`0-9`, every underscore `_`, every period `.`, and all hyphens `-`
 ### Character Classes
+Character classes define sets of characters. There are a vast amount of character classes. I will introduce a few, and also link documentation for a more in-depth look inside `Character Classes`.
+`/w` Will match any alphanumeric character: A-Z, a-z, 0-9.
 
+`/s` Will match any single white space character. These include simple spaces, tabs, and more.
+
+`/d` Will match any digit.
+
+Here is documentation to read further into `Character Classes` 
+
+`https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Character_classes`.
 ### The OR Operator
 
 ### Flags
