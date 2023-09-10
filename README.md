@@ -26,7 +26,7 @@ The characters `^` and `$` are known to be anchors in regular expressions. They 
 ### Quantifiers
 Quantifiers specify how many times a character must be present in the input for a match to be found. The quantifier can be identified in the example regex towards the end. `([a-z\.]{2,6})$\`. The `anchor` `$` can be seen towards the end. However, the a-z will only be searched in lengths of 2 to 6 characters long.
 ### Grouping Constructs
-
+Grouping captures patterns within the larger group, this can be referred to as a subpattern. Using `()` will indicate a grouping. Look back at the example regex and see if you can spot a grouping construct.
 ### Bracket Expressions
 
 ### Character Classes
